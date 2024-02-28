@@ -16,10 +16,10 @@ En el challenge se ponen a prueba los conocimientos previos de CSS, que serán r
 ### Capturas
 
 Lista:
-![List](list.jpg 'List')
+![List](img/list.png 'List')
 
 Lista hover:
-![List Hover](list-hover.jpg 'List Hover')
+![List Hover](img/list-hover.png 'List Hover')
 
 Formulario:
-![Form](form.jpg 'Form')
+![Form](img/form.png 'Form')
