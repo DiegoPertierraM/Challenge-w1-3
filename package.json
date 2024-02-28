@@ -1,0 +1,15 @@
+{
+  "name": "challenge-w1-3",
+  "version": "1.0.0",
+  "description": "Lista de la compra en HTML y CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DiegoP",
+  "license": "ISC",
+  "type": "module",
+  "prettier": {
+    "singleQuote": true
+  }
+}
