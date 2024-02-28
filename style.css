@@ -108,6 +108,15 @@ section:nth-of-type(2) > ul > div {
   justify-content: space-between;
 }
 
+section:nth-of-type(2) > ul > div:hover {
+  color: #cd5b1d;
+}
+
+section:nth-of-type(2) > ul > div:hover img {
+  filter: invert(38%) sepia(37%) saturate(2155%) hue-rotate(352deg)
+    brightness(98%) contrast(87%);
+}
+
 section:nth-of-type(2) > ul {
   margin-block-start: 30px;
   margin-block-end: 10px;
