@@ -29,13 +29,13 @@ hr {
   margin-block: 0;
 }
 
-main ul > div {
+main ul > li {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-main ul > div > div {
+main ul > li > div {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -83,36 +83,45 @@ section:first-of-type {
   background-color: #d09d72;
 }
 
-section:first-of-type > div {
+section:first-of-type > a > div {
+  font-size: 1.2rem;
+  font-weight: 900;
+  margin-block-end: 2px;
+  color: #d09d72;
+  z-index: 1;
+}
+
+section:first-of-type > a {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
   background-color: #541985;
   border-radius: 50%;
+  z-index: 0;
 }
 
-section:first-of-type > div > a {
-  font-size: 1.5rem;
-  font-weight: 900;
-  color: #d09d72;
+a[href='index.html'] > div {
+  width: 15px;
+  height: 5px;
+  background-color: #d09d72;
 }
 
 section:first-of-type > h2 {
   font-weight: 500;
 }
 
-section:nth-of-type(2) > ul > div {
+section:nth-of-type(2) > ul > li {
   display: flex;
   justify-content: space-between;
 }
 
-section:nth-of-type(2) > ul > div:hover {
+section:nth-of-type(2) > ul > li:hover {
   color: #cd5b1d;
 }
 
-section:nth-of-type(2) > ul > div:hover img {
+section:nth-of-type(2) > ul > li:hover img {
   filter: invert(38%) sepia(37%) saturate(2155%) hue-rotate(352deg)
     brightness(98%) contrast(87%);
 }
